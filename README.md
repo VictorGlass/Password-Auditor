@@ -1,4 +1,4 @@
-# Password Auditor (Local & Ético)
+# 🔐Password Auditor (Local & Ético)
 
 Herramienta sencilla en **Python** para analizar la fortaleza de contraseñas **localmente**,
 sin enviar datos a Internet.
@@ -14,7 +14,7 @@ la longitud y tambien la variedad de caractéres que esta contiene.
 
 
 
-## Características
+## 👀Características
 
 - Análisis local (sin conexion ni ningún tipo de recoleccion de datos).
 - Detección de contraseñas debiles y patrones comúnes.
@@ -23,24 +23,29 @@ la longitud y tambien la variedad de caractéres que esta contiene.
 - Compatible con Python 3.8+.
 
 
+---
+## 🔎Ejemplo de Salida
 
-## Ejemplo de Salida
-
-Contraseña: admin123
-Fortaleza: Debil.
-Sugerencia: Evitar contraseñas comúnes y agrega símbolos o mayúsculas.
-
-Contraseña: QwErTy$45
-Fortaleza: Media.
-Sugerencia: Use al menos 12 caractéres únicos y mezcla números y símbolos.
-
-Contraseña: G7b!mXr9T#v2
-Fortaleza: Fuerte.
-Sugerencia: ¡Excelente! Esta contraseña tiene una buena entropía.
+- 🔑Contraseña: admin123
+- ❌Fortaleza: Debil.
+- 👨‍💻​Sugerencia: Evitar contraseñas comúnes y agrega símbolos o mayúsculas.
+<br></br>
 
 
+- 🔑Contraseña: QwErTy$45
+- ➖Fortaleza: Media.
+- 👨‍💻Sugerencia: Use al menos 12 caractéres únicos y mezcla números y símbolos.
+<br></br>
 
-## Uso Ético
+
+- 🔑Contraseña: G7b!mXr9T#v2
+- ✅Fortaleza: Fuerte.
+- 👨‍💻Sugerencia: ¡Excelente! Esta contraseña tiene una buena entropía.
+
+
+---
+
+## ⚖️Uso Ético
 
 Esta herramienta no debe ser utilizada para auditar contraseñas de otros sistemas
 sin el apropiado consentimiento.
